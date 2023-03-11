@@ -1,10 +1,9 @@
 ﻿Console.WriteLine("Введите число");
 int N = Convert.ToInt32(Console.ReadLine());
 int i = 1;
-double x = i % 2;
 while (i <= N)
 {
-    if (x == 0)
+    if (i%2 == 0)
         {
         Console.Write(i + " ");
         i++;
